@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Nunito:200|Source+Sans+Pro:300,400');
+
+body {
+    padding: 40px 160px;
+}
+
+.top__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #a4a4a4;
+}
+
+.top__header img {
+    width: 76px;
+    height: 76px;
+}
+
+.top__header .header__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top__header .header__title-name {
+    font-size: 48px;
+}
+
+.top__header .header__title-subtitle {
+    font-size: 19px;
+}
+
+main .main__image {
+    width: 100%;
+    height: auto;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+main .main__featured-works {
+    margin-top: 15px;
+    display: flex;
+}
+
+main .main__work-title {
+    font-size: 35px;
+    font-weight: 500;
+    color: #a4a4a4;
+    margin-left: 5px;
+    font-family: 'Arimo', sans-serif;
+}
+
+main .main__featured-works .main__featured-work {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 28px;
+}
+
+main .main__featured-works .main__featured-work:nth-child(3) {
+    margin-right: 0;
+}
+
+main .main__featured-work .work__image {
+    width: 100%;
+    height: auto;
+}
+
+.main__featured-work {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #474747;
+}
+
+.main__featured-work .work-title {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.main__featured-work .work-url {
+    font-size: 13px;
+    margin-top: 6px;
+}
